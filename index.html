@@ -1,5 +1,6 @@
 <style>
-#monteserinSlider li{display: none; position: absolute;list-style:none;}
+.monteserinSlider li{display: none; position: absolute;list-style:none;}
+.monteserinSlider ul{position: relative;list-style:none;}
 
 </style>
 <style>
@@ -11,18 +12,29 @@
 
 <script type="text/javascript" >
 $(function(){
-	$("ul").monteserinSlider({
+	$("#monteserinSlider1").monteserinSlider({
 		fadeInTime:2000,
 		fadeOutTime:2000
 	});
+	$("#monteserinSlider2").monteserinSlider();
 });
 </script>
 
 
-<ul id="monteserinSlider">
+<ul id="monteserinSlider1" class="monteserinSlider">
 	<li>Ok</li>
-	<li>this the Monteserin Slider</li>
+	<li>this is the Monteserin Slider</li>
 	<li>...so...</li>
 	<li>is great, yeah?</li>
 	<li>happy you appreciate it</li>
+</ul>
+
+
+
+<ul id="monteserinSlider2" class="monteserinSlider" style="background:red; margin-top:40px;  display:block; position:relative; ">
+	<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus earum quisquam accusamus commodi delectus vitae.	</li>
+	<li>Lorem ipsum dolor sit amet.</li>
+	<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, velit officiis quidem adipisci itaque, ratione rerum sapiente inventore possimus, cumque id repudiandae nam perferendis error repellendus suscipit. Voluptatem atque, odio aspernatur asperiores nesciunt beatae quod at unde. Sed, dolorum, placeat.</li>
+	<li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+	<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quidem quas voluptates. Veritatis molestiae amet dicta soluta iure reiciendis dolor, voluptates quam! Adipisci, maiores inventore sed aliquam eveniet a minus.</li>
 </ul>
