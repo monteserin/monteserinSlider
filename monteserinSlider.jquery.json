@@ -27,9 +27,9 @@
 		],
 		"bugs": "https://github.com/monteserin/monteserinSlider/issues",
 		"homepage": "http://www.pablomonteserin.com/monteserin-gallery",
-		"docs": "https://github.com/monteserin/monteserinGallery",
-		"demo": "http://www.pablomonteserin.com/cosines/monteserinGallery/index.html",
-		"download": "https://github.com/monteserin/monteserinGallery",
+		"docs": "https://github.com/monteserin/monteserinSlider",
+		"demo": "http://www.pablomonteserin.com/apuntes/cosines/monteserinSlider/",
+		"download": "https://github.com/monteserin/monteserinSlider",
 		"dependencies": {
 			"jquery": ">=1.5"
 		}
