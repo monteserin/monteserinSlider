@@ -1,0 +1,36 @@
+{
+	"name": "monteserinSlider",
+	"title": "jQuery Monteserin Slider",
+	"description": "Simple Slider.",
+	"keywords": [
+	"gallery",
+	"image",
+	"carrusell"
+	],
+	"version": "1.0",
+	"author": {
+		"name": "Pablo Monteserin",
+		"url": "http://pablomonteserin.com/"
+		},
+		"maintainers": [
+		{
+			"name": "Pablo Monteserin",
+			"email": "pablomonteserin@pablomonteserin.com",
+			"url": "http://pablomonteserin.com"
+		}
+		],
+		"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"
+		}
+		],
+		"bugs": "https://github.com/monteserin/monteserinSlider/issues",
+		"homepage": "http://www.pablomonteserin.com/monteserin-gallery",
+		"docs": "https://github.com/monteserin/monteserinGallery",
+		"demo": "http://www.pablomonteserin.com/cosines/monteserinGallery/index.html",
+		"download": "https://github.com/monteserin/monteserinGallery",
+		"dependencies": {
+			"jquery": ">=1.5"
+		}
+	}
