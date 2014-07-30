@@ -8,6 +8,9 @@ var maxWidth=0;
 var maxHeight=0;
 
 	$lista = $(this).find("li");
+	$(this).css({"position":"relative", "list-style": "none"});
+	$lista.css({"display":"none","position":"absolute"})
+
 
 	$lista.each(function(){
 		if($(this).width()>maxWidth)maxWidth=$(this).width();
