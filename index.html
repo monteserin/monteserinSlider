@@ -1,0 +1,28 @@
+<style>
+#monteserinSlider li{display: none; position: absolute;list-style:none;}
+
+</style>
+<style>
+	ul#monteserinSlider{font-size: 5em}
+
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="monteserinSlider.js"></script>
+
+<script type="text/javascript" >
+$(function(){
+	$("ul").monteserinSlider({
+		fadeInTime:2000,
+		fadeOutTime:2000
+	});
+});
+</script>
+
+
+<ul id="monteserinSlider">
+	<li>Ok</li>
+	<li>this the Monteserin Slider</li>
+	<li>...so...</li>
+	<li>is great, yeah?</li>
+	<li>happy you appreciate it</li>
+</ul>
