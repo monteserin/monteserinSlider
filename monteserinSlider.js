@@ -6,6 +6,7 @@ var $lista;
 var listaLength=5;
 var maxWidth=0;
 var maxHeight=0;
+var waitTime = 2000;
 
 	$lista = $(this).find("li");
 	$(this).css({"position":"relative", "list-style": "none"});
@@ -22,6 +23,8 @@ var maxHeight=0;
 	if(event !== undefined){
 		if(event.fadeInTime !== undefined)fadeInTime=event.fadeInTime;
 		if(event.fadeOutTime !== undefined)fadeOutTime=event.fadeOutTime;
+		if(event.waitTime !== undefined)waitTime=event.waitTime;
+
 	}else{
 		var event={};
 	}
@@ -29,20 +32,11 @@ var maxHeight=0;
 
 	hacerSlider(event.i);      
 
-
-
-
 function hacerSlider(i){
 	event.i=event.i+1;
-	$lista.eq(i).fadeIn(fadeInTime, function(){
-		$lista.fadeOut(fadeOutTime);
+	$lista.eq(i).fadeIn(fadeInTime).delay(waitTime).fadeOut(fadeOutTime,function(){
 		if(event.i>=listaLength)event.i=0;
 		hacerSlider(event.i);
-
 	});
 }
-
-
-
-
 }
